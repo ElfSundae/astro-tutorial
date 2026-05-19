@@ -5,4 +5,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://elfsundae.github.io',
   base: '/astro-tutorial',
+  trailingSlash: "never",
 });
